@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53CDD022A981DA0078AFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53CDCF22A981DA0078AFBB /* AppDelegate.swift */; };
+		6B53CDD222A981DA0078AFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53CDD122A981DA0078AFBB /* ViewController.swift */; };
+		6B53CDD522A981DA0078AFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B53CDD322A981DA0078AFBB /* Main.storyboard */; };
+		6B53CDD722A981DC0078AFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B53CDD622A981DC0078AFBB /* Assets.xcassets */; };
+		6B53CDDA22A981DC0078AFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B53CDD822A981DC0078AFBB /* LaunchScreen.storyboard */; };
+		6B53CDE522A981DC0078AFBB /* Wikitionary_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53CDE422A981DC0078AFBB /* Wikitionary_ClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B53CDE122A981DC0078AFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B53CDC422A981DA0078AFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B53CDCB22A981DA0078AFBB;
+			remoteInfo = "Wikitionary Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B53CDCC22A981DA0078AFBB /* Wikitionary Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wikitionary Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53CDCF22A981DA0078AFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B53CDD122A981DA0078AFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B53CDD422A981DA0078AFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B53CDD622A981DC0078AFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B53CDD922A981DC0078AFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B53CDDB22A981DC0078AFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B53CDE022A981DC0078AFBB /* Wikitionary ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wikitionary ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53CDE422A981DC0078AFBB /* Wikitionary_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wikitionary_ClientTests.swift; sourceTree = "<group>"; };
+		6B53CDE622A981DC0078AFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53CDC922A981DA0078AFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B53CDDD22A981DC0078AFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53CDC322A981DA0078AFBB = {
+			isa = PBXGroup;
+			children = (
+				6B53CDCE22A981DA0078AFBB /* Wikitionary Client */,
+				6B53CDE322A981DC0078AFBB /* Wikitionary ClientTests */,
+				6B53CDCD22A981DA0078AFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53CDCD22A981DA0078AFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53CDCC22A981DA0078AFBB /* Wikitionary Client.app */,
+				6B53CDE022A981DC0078AFBB /* Wikitionary ClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53CDCE22A981DA0078AFBB /* Wikitionary Client */ = {
+			isa = PBXGroup;
+			children = (
+				6B53CDCF22A981DA0078AFBB /* AppDelegate.swift */,
+				6B53CDD122A981DA0078AFBB /* ViewController.swift */,
+				6B53CDD322A981DA0078AFBB /* Main.storyboard */,
+				6B53CDD622A981DC0078AFBB /* Assets.xcassets */,
+				6B53CDD822A981DC0078AFBB /* LaunchScreen.storyboard */,
+				6B53CDDB22A981DC0078AFBB /* Info.plist */,
+			);
+			path = "Wikitionary Client";
+			sourceTree = "<group>";
+		};
+		6B53CDE322A981DC0078AFBB /* Wikitionary ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B53CDE422A981DC0078AFBB /* Wikitionary_ClientTests.swift */,
+				6B53CDE622A981DC0078AFBB /* Info.plist */,
+			);
+			path = "Wikitionary ClientTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B53CDCB22A981DA0078AFBB /* Wikitionary Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53CDE922A981DC0078AFBB /* Build configuration list for PBXNativeTarget "Wikitionary Client" */;
+			buildPhases = (
+				6B53CDC822A981DA0078AFBB /* Sources */,
+				6B53CDC922A981DA0078AFBB /* Frameworks */,
+				6B53CDCA22A981DA0078AFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wikitionary Client";
+			productName = "Wikitionary Client";
+			productReference = 6B53CDCC22A981DA0078AFBB /* Wikitionary Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B53CDDF22A981DC0078AFBB /* Wikitionary ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53CDEC22A981DC0078AFBB /* Build configuration list for PBXNativeTarget "Wikitionary ClientTests" */;
+			buildPhases = (
+				6B53CDDC22A981DC0078AFBB /* Sources */,
+				6B53CDDD22A981DC0078AFBB /* Frameworks */,
+				6B53CDDE22A981DC0078AFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B53CDE222A981DC0078AFBB /* PBXTargetDependency */,
+			);
+			name = "Wikitionary ClientTests";
+			productName = "Wikitionary ClientTests";
+			productReference = 6B53CDE022A981DC0078AFBB /* Wikitionary ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53CDC422A981DA0078AFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HermiteBai;
+				TargetAttributes = {
+					6B53CDCB22A981DA0078AFBB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6B53CDDF22A981DC0078AFBB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6B53CDCB22A981DA0078AFBB;
+					};
+				};
+			};
+			buildConfigurationList = 6B53CDC722A981DA0078AFBB /* Build configuration list for PBXProject "Wikitionary Client" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B53CDC322A981DA0078AFBB;
+			productRefGroup = 6B53CDCD22A981DA0078AFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53CDCB22A981DA0078AFBB /* Wikitionary Client */,
+				6B53CDDF22A981DC0078AFBB /* Wikitionary ClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B53CDCA22A981DA0078AFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53CDDA22A981DC0078AFBB /* LaunchScreen.storyboard in Resources */,
+				6B53CDD722A981DC0078AFBB /* Assets.xcassets in Resources */,
+				6B53CDD522A981DA0078AFBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B53CDDE22A981DC0078AFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53CDC822A981DA0078AFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53CDD222A981DA0078AFBB /* ViewController.swift in Sources */,
+				6B53CDD022A981DA0078AFBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B53CDDC22A981DC0078AFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53CDE522A981DC0078AFBB /* Wikitionary_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B53CDE222A981DC0078AFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B53CDCB22A981DA0078AFBB /* Wikitionary Client */;
+			targetProxy = 6B53CDE122A981DC0078AFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B53CDD322A981DA0078AFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B53CDD422A981DA0078AFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B53CDD822A981DC0078AFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B53CDD922A981DC0078AFBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B53CDE722A981DC0078AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B53CDE822A981DC0078AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B53CDEA22A981DC0078AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PSWP5Q769;
+				INFOPLIST_FILE = "Wikitionary Client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WikitionaryClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6B53CDEB22A981DC0078AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PSWP5Q769;
+				INFOPLIST_FILE = "Wikitionary Client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WikitionaryClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6B53CDED22A981DC0078AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PSWP5Q769;
+				INFOPLIST_FILE = "Wikitionary ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hermitebai.Wikitionary-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikitionary Client.app/Wikitionary Client";
+			};
+			name = Debug;
+		};
+		6B53CDEE22A981DC0078AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PSWP5Q769;
+				INFOPLIST_FILE = "Wikitionary ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hermitebai.Wikitionary-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikitionary Client.app/Wikitionary Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53CDC722A981DA0078AFBB /* Build configuration list for PBXProject "Wikitionary Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53CDE722A981DC0078AFBB /* Debug */,
+				6B53CDE822A981DC0078AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53CDE922A981DC0078AFBB /* Build configuration list for PBXNativeTarget "Wikitionary Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53CDEA22A981DC0078AFBB /* Debug */,
+				6B53CDEB22A981DC0078AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53CDEC22A981DC0078AFBB /* Build configuration list for PBXNativeTarget "Wikitionary ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53CDED22A981DC0078AFBB /* Debug */,
+				6B53CDEE22A981DC0078AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53CDC422A981DA0078AFBB /* Project object */;
+}
